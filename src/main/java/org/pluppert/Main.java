@@ -49,8 +49,14 @@ public class Main {
         System.out.print("The average of | " + num1 + " + " + num2 + " + " + num3 + " | is: " + ((num1 + num2 + num3)/3));
         */
         // Exercise 5:
+        /*
         System.out.print("Please enter your name: ");
         String username = scanner.nextLine();
         System.out.println("Hello " + username);
+        */
+        // Exercise 6:
+        /*
+        See repository: https://github.com/PLUPPERT/calculator-workshop
+        */
     }
 }
