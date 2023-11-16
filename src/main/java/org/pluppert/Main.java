@@ -10,7 +10,6 @@ public class Main {
         System.out.println("Hello");
         System.out.println("Christian!");
         */
-
         // Exercise 2:
         /* System.out.print("Enter year: ");
         int year = scanner.nextInt();
@@ -24,7 +23,6 @@ public class Main {
             System.out.println(year + " is not a leap year.");
         }
         */
-
         // Exercise 3:
         /*System.out.print("Write a number: ");
         double num1 = scanner.nextDouble();
@@ -40,6 +38,7 @@ public class Main {
         System.out.println(num1 +" * " + num2 + " = " + multiplier);
         System.out.println(num1 +" / " + num2 + " = " + divisor);*/
         // Exercise 4:
+        /*
         System.out.print("Enter first number: ");
         int num1 = scanner.nextInt();
         System.out.print("Enter second number: ");
@@ -48,6 +47,10 @@ public class Main {
         int num3 = scanner.nextInt();
 
         System.out.print("The average of | " + num1 + " + " + num2 + " + " + num3 + " | is: " + ((num1 + num2 + num3)/3));
-
+        */
+        // Exercise 5:
+        System.out.print("Please enter your name: ");
+        String username = scanner.nextLine();
+        System.out.println("Hello " + username);
     }
 }
