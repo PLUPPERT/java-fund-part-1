@@ -58,5 +58,13 @@ public class Main {
         /*
         See repository: https://github.com/PLUPPERT/calculator-workshop
         */
+        // Exercise 7:
+        System.out.print("Input value of seconds: ");
+        int seconds = scanner.nextInt();
+        int secs = seconds % 60;
+        int hours = seconds / 60;
+        int mins = hours % 60;
+        hours = hours / 60;
+        System.out.print(hours + ":" + mins + ":" + secs);
     }
 }
