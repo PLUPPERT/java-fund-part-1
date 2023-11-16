@@ -26,7 +26,7 @@ public class Main {
         */
 
         // Exercise 3:
-        System.out.print("Write a number: ");
+        /*System.out.print("Write a number: ");
         double num1 = scanner.nextDouble();
         System.out.print("Write a second number: ");
         double num2 = scanner.nextDouble();
@@ -38,7 +38,16 @@ public class Main {
         System.out.println(num1 +" + " + num2 + " = " + addition);
         System.out.println(num1 +" - " + num2 + " = " + subtraction);
         System.out.println(num1 +" * " + num2 + " = " + multiplier);
-        System.out.println(num1 +" / " + num2 + " = " + divisor);
+        System.out.println(num1 +" / " + num2 + " = " + divisor);*/
+        // Exercise 4:
+        System.out.print("Enter first number: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter second number: ");
+        int num2 = scanner.nextInt();
+        System.out.print("Enter third number: ");
+        int num3 = scanner.nextInt();
+
+        System.out.print("The average of | " + num1 + " + " + num2 + " + " + num3 + " | is: " + ((num1 + num2 + num3)/3));
 
     }
 }
